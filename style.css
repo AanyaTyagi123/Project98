@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color:white;    
+}
+h1{
+    color:yellow !important;
+    letter-spacing: 5px;
+}
+h2{
+    color: palevioletred;
+    font-family: 'Yeon Sung';
+}
+h4{
+    color:aqua !important;
+}
+#start{
+    color:black;
+    font-family: 'Yeon Sung';
+    font-size: 20px;
+}
+p{
+    margin-top: 10px;
+    color:gainsboro;
+    font-size: 15px;
+}
+label{
+    margin-top: 10px;
+    color:gainsboro;
+    font-size: 20px;
+}
+img{
+    margin: 10px;
+}

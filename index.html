@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Collage Web App</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h2>Collage Web App</h2>
+            <h4>Click 'Allow' on the popup.</h4>
+            <hr>
+            <h1>SAY "TAKE MY SELFIE"</h1>
+            <button class="btn btn-info" id="start" onclick="start()">Start</button>
+            <p> Press 'start'</p>
+            <label>Your Webcam</label>
+            <div id="camera"></div>
+            <label>Your Selfie</label>
+            <div id="result1">
+                <img src="https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678__340.jpg">
+            </div>
+            <div id="result2">
+                <img style="height: 301px;" src="https://www.akamai.com/site/im-demo/perceptual-standard.jpg?imbypass=true">
+            </div>
+            <div id="result3">
+                <img style="height: 317px;" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg">
+            </div>
+        </center>
+    </body>
+</html>
